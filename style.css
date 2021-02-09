@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&family=Lalezar&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Arial Black';
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 2000px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 0 50px;
+    background-color: white;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.192);
+    z-index: 10;
+}
+
+nav img {
+    float: left;
+    height: 65px;
+    transition: 0.2s;
+}
+
+nav img:hover {
+    filter: opacity(.5);
+}
+
+nav ul {
+    float: left;
+    padding-left: 20px;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+nav ul li:nth-child(1) {
+    border-bottom: solid;
+}
+
+nav ul li:hover {
+    border-bottom: solid;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    font-family: 'Lalezar', cursive;
+}
+
+nav i {
+    padding: 20px;
+    float: right;
+    font-size: 25px;
+}
+
+main {
+    padding-top: 70px;
+}
+
+hr {
+    margin: 10px 0;
+    padding: 1px;
+    background-color: grey;
+}
+
+article {
+    padding: 50px 100px 50px 100px;
+}
+
+#first section {
+    width: 55%;
+    padding-top: 40px;
+}
+
+#first h1 {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: rgb(78, 78, 78);
+}
+
+#first h2 {
+    font-family: 'Lalezar', cursive;
+    font-size: 50px;
+}
+
+#first p {
+    color: rgb(78, 78, 78);
+    margin-bottom: 30px;
+}
+
+#first a {
+    padding: 7px;
+    border: solid 3px;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+
+#first a:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+#first img {
+    position: absolute;
+    top: 10px;
+    right: 75px;
+    z-index: 99;
+    width: 40%;
+    transition: 0.5s;
+}
+
+.title {
+    transition: 0.5s;
+}
+
+.title h1 {
+    font-family: 'arial black';
+    color: rgb(78, 78, 78);
+}
+
+.title h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+#card div {
+    margin: 50px 25px 50px 25px;
+    display: inline-block;
+    width: 45%;
+    height: 500px;
+    padding: 50px;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+#card div h1 {
+    color: white;
+    font-size: 40px;
+    text-shadow: 1px 1px 10px black;
+}
+
+#card div h2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 10px black;
+    margin-bottom: 20px;
+    transition: 0.2s;
+}
+
+#card div h2 span {
+    color: rgb(255, 255, 68);
+}
+
+#card div a {
+    color: transparent;
+    font-size: 20px;
+    border: solid;
+    padding: 7px;
+    transition: 0.5s;
+    position: relative;
+    top: 40px;
+}
+
+#card div:hover {
+    filter: contrast(0.8);
+}
+
+#card div:hover a {
+    top: 25px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 5px;
+    filter: contrast(1);
+}
+
+.coding {
+    background-image: url("img/coding1.jpg");
+}
+
+.gaming {
+    background-image: url("img/gaming1.jpg");
+}
+
+.futsal {
+    background-image: url("img/futsal1.jpg");
+}
+
+.design {
+    background-image: url("img/design1.jpg");
+}
+
+#third {
+    text-align: center;
+}
+
+#third h1 {
+    color: rgb(78, 78, 78);
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: normal;
+}
+
+#third a {
+    font-family: 'Lalezar', cursive;
+    font-size: 50px;
+}
+
+#third a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin: 100px auto 0;
+    box-shadow: 0px -2px 4px rgb(156, 156, 156);
+    text-align: center;
+    padding: 10px;
+}
+
+footer span {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: bold;
+}
+
+footer p {
+    font-family: 'Hind Siliguri', sans-serif;
+    display: inline-block;
+    margin: 0 100px;
+}
